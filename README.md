@@ -25,13 +25,21 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [X] Describe the game's purpose.
+- [X] Detail which bugs you found.
+- [X] Explain what fixes you applied.
+
+The game's purpose is to guess the secret number based on hints provided to you before you run out of attempts.
+
+I found bugs where the hint was inverted, the mode was not being applied correctly, and new game button not working accordingly.
+
+The fixes I applied were fixing the check_guess logic, and refactoring code into `logic_utils.py`.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [X] [Insert a screenshot of your fixed, winning game here]
+
+![Winning Game Screenshot](winning_game_ss.png)
 
 ## 🚀 Stretch Features
 

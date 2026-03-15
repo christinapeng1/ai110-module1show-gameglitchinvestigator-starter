@@ -61,7 +61,11 @@ AI did not really help me understand the tests, it just told me the answers dire
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
+The secret number kept changing because everytime we refreshed, we were starting a new session, and our app will generate a new random number. 
 
+To explain it to a friend, I would say Streamlit creates another instance of the game. It's similar to refreshing a website.
+
+To give it a stable number, I made sure to check the session logic in `app.py`.
 
 ## 5. Looking ahead: your developer habits
 
@@ -69,3 +73,9 @@ AI did not really help me understand the tests, it just told me the answers dire
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+Looking ahead, I want to reuse the habit of using AI to help me write well-thoughtout commit messages.
+
+Nex time, I would probably try to look at the code myself before feeding it to AI to gain an initial understanding first.
+
+This project made me more aware of how AI-generated code cannot be easily trusted.
